@@ -1,4 +1,12 @@
 .message {
+    position: absolute;
+    width: 527px;
+    height: 60px;
+    left: 635px;
+    top: 168px;
+
+    background: #0066CC;
+    box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03), 0px 1px 2px rgba(29, 33, 38, 0.1);
 
 }
 
@@ -7,6 +15,12 @@
 }
 
 .imageAndText img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left:535px;
+    top: 0px;
+
 
 }
 
@@ -18,12 +32,46 @@
 
 }
 
-.name {
 
-}
+
+
+
 
 .messageText {
+    position: absolute;
+    width: 489px;
+    height: 20px;
+    left: 10px;
+    top: 40px;
 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: white;
+}
+
+.name {
+
+    position: absolute;
+    width: 20px;
+    height: 22px;
+    left: 475px;
+    top: 0px;
+
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: white;
 }
 
 .time {

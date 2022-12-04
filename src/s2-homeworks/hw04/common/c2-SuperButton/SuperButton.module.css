@@ -1,4 +1,5 @@
 .button {
+
 }
 
 .disabled {
@@ -8,9 +9,11 @@
 }
 
 .default {
+
 }
 
 .red {
+    background-color: #cc0000;
 }
 
 .default:hover {

@@ -8,15 +8,19 @@
 }
 
 .nav {
+    color: #0059b3;
 }
 
 .nav a {
+    color: #00cc22;
 }
 
 .nav a:hover {
+    color: #cc9c00;
 }
 
 .nav a.active {
+    color: #cc0000;
 }
 .close {
 }

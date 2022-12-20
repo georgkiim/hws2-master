@@ -1,8 +1,17 @@
 .burgerMenuIcon {
+    margin-left: 5%;
+    margin-top: 0.8%;
 }
 
 .header {
+
+    height: 7%;
+    width: 100%;
+    background-color: #F5F7FB;
+
+
 }
 
 .header h1 {
+
 }

@@ -1,18 +1,41 @@
 .sendForm {
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    padding: 1em;
+    margin-right: 5vh;
+    margin-left: 5vh;
+
+
 
 }
 
 .textarea {
+    border-radius: 2vh;
+    min-height: 6vh;
+    min-width: 180vh;
+    resize: none;
+    font-size: 2.5vh;
+    line-height: 2em;
+    background-color: #F5F7FB;
+
 
 }
 
 .button {
-
+    height: 6vh;
+    width:14vh;
+    margin-left: 4vh;
+    border-radius: 5vh;
+    background-color: #0066cc;
+    color: #F5F7FB;
+    border: 0px;
 }
 
 .button:hover {
 
 }
+
 .button:active {
 
 }

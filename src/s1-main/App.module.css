@@ -3,9 +3,13 @@
 }
 
 .hw {
-
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    border: 1px solid;
+    margin: 2vh;
 }
 
 .hwTitle {
-
+    margin: 2vh;
 }

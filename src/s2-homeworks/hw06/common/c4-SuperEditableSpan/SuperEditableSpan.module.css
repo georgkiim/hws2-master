@@ -1,7 +1,11 @@
 .spanBlock {
+
 }
 
 .span {
+    color: #0080FF;
+    padding: 10px;
+;
 }
 
 .input {

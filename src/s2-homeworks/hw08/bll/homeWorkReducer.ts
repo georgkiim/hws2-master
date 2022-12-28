@@ -37,10 +37,10 @@ export const homeWorkReducer = (state: any, action: any): any => { // need to fi
             const stateSortAge = [...state.sort(function (a: UserType, b: UserType) {
                     if (action.payload === 'up') {
                         if (a.age > b.age) {
-                            return 1;
+                            return -1;
                         }
                         if (a.age < b.age) {
-                            return -1;
+                            return 1;
                         }
                         // a должно быть равным b
                         return 0;
